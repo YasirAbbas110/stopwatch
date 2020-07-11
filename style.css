@@ -1,0 +1,49 @@
+body{
+text-align: center;
+font-size: 300%;
+background-color: #ff4a4a;}
+.timer{
+    display: inline-block;
+}
+h1{
+    color: greenyellow;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+h2,h4{
+    display: inline-block;
+    color: navy;
+    
+}
+h5{
+    color: greenyellow;
+    text-shadow: 2px 3px navy;
+}
+#min , #sec, #hour, #msec{
+    width: 100px;
+    border: solid 5px greenyellow;
+    border-radius: 60px;
+    background-color: mediumpurple ;
+}
+button{
+    font-size: 40px;
+    background-color: mediumpurple;
+    color: navy;
+    border-radius: 14px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 10px ;
+    border: solid 5px greenyellow;
+    margin-bottom: 50px;
+}
+button:hover{
+    border: solid 5px white;
+    color: white;
+}
+ol{
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: navy
+}

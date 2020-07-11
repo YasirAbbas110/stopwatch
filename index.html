@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stopwatch</h1>
+    <div class="timer" id = "timer">
+        <h2 id="hour">00</h2>
+        <h2>:</h2>
+        <h2 id="min">00</h2>
+        <h2>:</h2>
+        <h2 id="sec">00</h2>
+        <h4 id="msec">00</h4>
+    </div>
+    <div class="buttons" id = "buttons">
+        <button type="button" onclick="startPause();" id= "start" class="btn btn-info">Start</button>
+        <button type="button" onclick="reset()" id="reset" class="btn btn-info">Reset</button>
+        <button type="button" onclick="lap()" id="lap" class="btn btn-info">Lap</button>
+    </div>
+        <ol id="laps">
+        </ol>
+        <h5>Developed By WM12330</h5>
+    <script src="app.js"></script>
+</body>
+</html>
